@@ -1,0 +1,23 @@
+PROCESSUSNAME pairimpair
+# Definition des variables
+STRING debut = -------------------- DEBUT PAIR IMPAIR --------------------
+STRING fin = -------------------- FIN PAIR IMPAIR --------------------
+INT value = 4
+INT deux = 2
+STRING vrai = vrai
+STRING faux = faux
+# Programme
+PRINT debut
+SLEEP 1000
+IF value < deux ;
+	PRINT vrai
+	SLEEP 2000
+	PRINT value
+ENDIF
+ELSE ;
+	PRINT faux
+	SLEEP 3000
+	PRINT value
+ENDELSE
+SLEEP 1000
+PRINT fin
